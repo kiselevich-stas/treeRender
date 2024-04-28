@@ -1,0 +1,37 @@
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100dvh;
+    display: flex;
+    background: #fefefe;
+    color: white;
+    overflow-x: hidden;
+
+
+
+
+
+}
+.wrapper{
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 40px;
+    color: #1f1f1f;
+}
+ul,
+ol,
+dl,
+p {
+    font-size: 1.5rem;
+}
+
+li,
+p {
+    line-height: 1.5;
+}
